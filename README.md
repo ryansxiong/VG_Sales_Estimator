@@ -36,3 +36,20 @@ _* The full code can be found in the folder labeled **Create VG Sales Modelling.
 
 <img width="1091" alt="Screen Shot 2021-12-31 at 1 36 12 PM" src="https://user-images.githubusercontent.com/91089401/147839456-46a29676-fb5e-43bb-8166-b7df9e26f7f5.png">
 
+* I dropped all the null values in the Critic Score column. This step got rid of most of the of the null values.
+
+<img width="1102" alt="Screen Shot 2021-12-31 at 1 40 24 PM" src="https://user-images.githubusercontent.com/91089401/147839516-d1a722fa-8b37-4e55-a4c3-f84c94d549da.png">
+
+* Since all the remaining missing values are low enough, I can now fill in the rest with the mode. For the User_score column, I took care of the 'tbd' value and changed it to none. Finally, I rechecked the data to see if all the missing values were taken care of. 
+
+<img width="1114" alt="Screen Shot 2021-12-31 at 2 04 16 PM" src="https://user-images.githubusercontent.com/91089401/147839903-32d780bf-64c7-49b4-8b20-55e543e9cd84.png">
+
+* Getting dummies for the columns Platform, Genre, and rating. I excluded Name and Publisher from the model since there were too many categories. 
+
+<img width="1102" alt="Screen Shot 2021-12-31 at 1 59 14 PM" src="https://user-images.githubusercontent.com/91089401/147839836-66d4f37e-c325-4461-9467-ca022ea1c80b.png">
+
+* The last step was to drop all the columns I did not want in my model. After all the data cleaning, my new dataset for the model's shape went from (16719, 15) to (7886, 41).
+
+<img width="1103" alt="Screen Shot 2021-12-31 at 2 02 46 PM" src="https://user-images.githubusercontent.com/91089401/147839909-6e48f7a8-7621-4660-b579-889650ae7459.png">
+
+## Modelling
