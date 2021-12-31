@@ -79,7 +79,7 @@ Now that I have cleaned my data, I can now create a model. Below you will find a
 
 <img width="1099" alt="Screen Shot 2021-12-31 at 2 50 57 PM" src="https://user-images.githubusercontent.com/91089401/147840631-b393a128-38ac-4fdc-9381-5dda7858f710.png">
 
-* **Tuning Models with GridSearchCV**
+**Tuning Models with GridSearchCV**
 
 * Lasso with gridsearchCV
  
