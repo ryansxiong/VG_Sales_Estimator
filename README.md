@@ -53,3 +53,14 @@ _* The full code can be found in the folder labeled **Create VG Sales Modelling.
 <img width="1103" alt="Screen Shot 2021-12-31 at 2 02 46 PM" src="https://user-images.githubusercontent.com/91089401/147839909-6e48f7a8-7621-4660-b579-889650ae7459.png">
 
 ## Modelling
+Now that I have cleaned my data, I can now create a model. Below you will find all the different models that I have tested. 
+
+* First, I need to define my variables. I then established my train test split to use for my models. 
+
+<img width="1107" alt="Screen Shot 2021-12-31 at 2 14 12 PM" src="https://user-images.githubusercontent.com/91089401/147840069-b7488e56-7fc5-471b-abc9-abba0b308210.png">
+
+* Before I test my models, I transformed the data using the log function (this applies log(1 + x) to all elements of the column) to evenly distribute the data. 
+
+<img width="1105" alt="Screen Shot 2021-12-31 at 2 15 48 PM" src="https://user-images.githubusercontent.com/91089401/147840085-9d71d7f2-d296-4d37-82ff-744c214b6e36.png">
+
+
