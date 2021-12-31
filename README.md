@@ -23,3 +23,16 @@ _* The full code can be found in the folder labeled **Create VG Sales Modelling.
 * I saw that there was 1 outlier and decided to drop it from the dataset. (New scatter plot without the outlier)
 
 <img width="1098" alt="Screen Shot 2021-12-31 at 1 24 38 PM" src="https://user-images.githubusercontent.com/91089401/147839333-83dd4ef8-e32b-44bc-ab78-50449d6cd224.png">
+
+* Finding any missing/null values in the dataset.
+
+<img width="1098" alt="Screen Shot 2021-12-31 at 1 31 42 PM" src="https://user-images.githubusercontent.com/91089401/147839406-59a4ef25-d4d9-415b-8f91-3b487bbe0b48.png">
+
+* Since I do not want to fill over 50% of my data with the mode, I decided to take only the data from the year 2000 to 2020.
+
+<img width="1098" alt="Screen Shot 2021-12-31 at 1 34 46 PM" src="https://user-images.githubusercontent.com/91089401/147839436-8712d533-8072-440b-bb2c-3ed9f49a3ccc.png">
+
+* Rechecking the ratio of missing values in the dataset. Filtering the year did help lower the amount of missing values.
+
+<img width="1091" alt="Screen Shot 2021-12-31 at 1 36 12 PM" src="https://user-images.githubusercontent.com/91089401/147839456-46a29676-fb5e-43bb-8166-b7df9e26f7f5.png">
+
