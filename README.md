@@ -1,5 +1,5 @@
 # Forecasting Video Game Sales
-Continuing the project that I did previously (https://github.com/ryansxiong/Video_Game_Sales_ds_proj) and creating a model to forecast the data's sales.
+Continuing the project that I did previously https://github.com/ryansxiong/Video_Game_Sales_ds_proj and creating a model to forecast the data's sales.
 
 ## Codes and Resources Used
 * **Python Version**: 3.8
