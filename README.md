@@ -53,7 +53,7 @@ _* The full code can be found in the folder labeled **Create VG Sales Modelling.
 <img width="1103" alt="Screen Shot 2021-12-31 at 2 02 46 PM" src="https://user-images.githubusercontent.com/91089401/147839909-6e48f7a8-7621-4660-b579-889650ae7459.png">
 
 ## Modelling
-Now that I have cleaned my data, I can now create a model. Below you will find all the different models that I have tested. 
+Now that I have cleaned my data, I can now create a model. Below you will find all the different models that I have tested. For the cross validation scoring, I used the negative mean absolute error (NMAE).
 
 * First, I need to define my variables. I then established my train test split to use for my models. 
 
@@ -63,4 +63,33 @@ Now that I have cleaned my data, I can now create a model. Below you will find a
 
 <img width="1105" alt="Screen Shot 2021-12-31 at 2 15 48 PM" src="https://user-images.githubusercontent.com/91089401/147840085-9d71d7f2-d296-4d37-82ff-744c214b6e36.png">
 
+* Linear Regression
+
+<img width="1097" alt="Screen Shot 2021-12-31 at 2 31 58 PM" src="https://user-images.githubusercontent.com/91089401/147840349-10c66e8a-c9a9-4554-8e82-3ab43fe5eea5.png">
+
+* Lasso
+
+<img width="1097" alt="Screen Shot 2021-12-31 at 2 33 38 PM" src="https://user-images.githubusercontent.com/91089401/147840368-395f0cbb-a4c1-4ee2-83e7-b390dfbc10aa.png">
+
+* Random Forest Regression 
+
+<img width="1096" alt="Screen Shot 2021-12-31 at 2 34 54 PM" src="https://user-images.githubusercontent.com/91089401/147840386-04180399-4a54-4e29-951b-266ea452686d.png">
+
+* Gradient Boosting Regressor
+
+<img width="1099" alt="Screen Shot 2021-12-31 at 2 50 57 PM" src="https://user-images.githubusercontent.com/91089401/147840631-b393a128-38ac-4fdc-9381-5dda7858f710.png">
+
+* **Tuning Models with GridSearchCV**
+
+* Lasso with gridsearchCV
+ 
+<img width="1104" alt="Screen Shot 2021-12-31 at 2 53 39 PM" src="https://user-images.githubusercontent.com/91089401/147840664-4779f446-affb-43a7-9404-d44aed66d507.png">
+
+* Random Forest Regressor with gridsearchCV
+
+<img width="1103" alt="Screen Shot 2021-12-31 at 2 55 56 PM" src="https://user-images.githubusercontent.com/91089401/147840688-c4353acf-a454-4828-978f-9c03f658de7f.png">
+
+* Gradient Boosting Regressor with gridsearchCV. I tried two different parameters to see if I could improve the model.
+
+<img width="1103" alt="Screen Shot 2021-12-31 at 2 57 20 PM" src="https://user-images.githubusercontent.com/91089401/147840710-13e977a0-9533-44ee-9ded-80439e49b3ea.png">
 
