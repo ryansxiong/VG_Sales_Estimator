@@ -93,3 +93,9 @@ Now that I have cleaned my data, I can now create a model. Below you will find a
 
 <img width="1103" alt="Screen Shot 2021-12-31 at 2 57 20 PM" src="https://user-images.githubusercontent.com/91089401/147840710-13e977a0-9533-44ee-9ded-80439e49b3ea.png">
 
+* Testing ensembles
+
+<img width="998" alt="Screen Shot 2021-12-31 at 6 10 53 PM" src="https://user-images.githubusercontent.com/91089401/147842663-b397a837-df09-43f1-8ec7-151d97d6e395.png">
+
+## Results
+After testing seven different models, I found that the one with the best cross validation score was the Gradient Boosting Regressor with gridsearchCV. The average score for this model was -0.1791.
