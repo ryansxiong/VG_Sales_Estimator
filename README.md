@@ -98,4 +98,4 @@ Now that I have cleaned my data, I can now create a model. Below you will find a
 <img width="998" alt="Screen Shot 2021-12-31 at 6 10 53 PM" src="https://user-images.githubusercontent.com/91089401/147842663-b397a837-df09-43f1-8ec7-151d97d6e395.png">
 
 ## Results
-After testing seven different models, I found that the one with the best cross validation score was the Gradient Boosting Regressor with gridsearchCV. The average score (NMAE) for this model was -0.1791.
+After testing seven different models, I found that the one with the best cross validation score was the Gradient Boosting Regressor with gridsearchCV. The average score (NMAE) for this model was -0.1791. This model could be useful as an extra input for estimates that reflect their project budget.
